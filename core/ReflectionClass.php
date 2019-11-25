@@ -10,7 +10,7 @@ interface Log
 }
 
 //文件记录实现接口
-class FileLog
+class FileLog implements Log
 {
 	public function write() 
 	{
